@@ -1,6 +1,111 @@
+//importing fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
 
 // reset standart css properties
-
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+//positions
+.is-centered {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.is-auto-centered {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+//flex position
+
+.is-flex-centered-container {
+    display: flex;
+    justify-content: center
+}
+
+.is-flex-wraped {
+    flex-wrap: wrap;
+}
+
+//background 
+.has-complete-background {
+    background-size: 100% 100%;
+}
+
+//figure
+.is-circle {
+    border-radius: 50%;
+}
+
+//text position
+.is-text-centered {
+    text-align: center;
+}
+
+//color-text
+
+.is-white {
+    color: #ffffff;
+}
+
+.is-yellow {
+    color: #f3ca3e;
+}
+
+//text-style
+.is-neutral-text {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #282222;
+}
+
+.isTitle1 {
+    font-size: 70px;
+    font-weight: bold;
+   
+}
+
+.isTitle2 {
+    font-size: 40px; 
+    font-weight: 100;
+}
+   
+.is-subtitle {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+//buttons
+.is-principal-button {
+    width: 296px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.22), 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+
+.has-colored-text {
+    font-size: 15px;
+    color: #051e71;
+}
+
+//effect
+.has-shadow {
+    box-shadow: 2px 7px 22px 0px rgba(0,0,0,0.42);
 }
